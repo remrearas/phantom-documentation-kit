@@ -67,7 +67,6 @@ jobs:
             ```bash
             # Extract archive
             unzip phantom-documentation-kit-${{ steps.get_version.outputs.VERSION }}.zip
-            cd phantom-documentation-kit-${{ steps.get_version.outputs.VERSION }}
             
             # Install Python dependencies
             pip install -r requirements.txt
@@ -98,7 +97,6 @@ jobs:
             ```bash
             # Arşivi açın
             unzip phantom-documentation-kit-${{ steps.get_version.outputs.VERSION }}.zip
-            cd phantom-documentation-kit-${{ steps.get_version.outputs.VERSION }}
             
             # Python bağımlılıklarını yükleyin
             pip install -r requirements.txt
