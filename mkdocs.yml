@@ -1,0 +1,156 @@
+site_name: Phantom Documentation Kit with Mkdocs
+site_description: Modern Documentation Template & UI Kit for Technical Projects
+site_author: Rıza Emre ARAS
+site_url: https://phantom-documentation-kit.pages.dev/
+#use_directory_urls: false  # This creates .html files instead of directories
+
+theme:
+  name: material
+  custom_dir: overrides
+  palette:
+    - scheme: slate
+      primary: cyan
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+  features:
+    # - navigation.instant  # Removed - incompatible with i18n
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: material/ghost
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: en
+          name: English
+          build: true
+          default: true
+        - locale: tr
+          name: Türkçe
+          build: true
+          nav_translations:
+            Home: Ana Sayfa
+            Styling Examples: Stil Örnekleri
+            Introduction to Styling Examples: Stil Örneklerine Giriş
+            Typography: Tipografi
+            Layout Grids: Yerleşim Izgaraları
+            Theme Switching: Tema Değiştirme
+            Command Examples: Komut Örnekleri
+            Code Blocks: Kod Blokları
+            Status Cards: Durum Kartları
+            Feature Lists: Özellik Listeleri
+            Alert Boxes: Uyarı Kutuları
+            Loading Stages and States: Yükleme Aşamaları ve Durumları
+            Progress Indicators: İlerleme Göstergeleri
+            Image Components: Görüntü Bileşenleri
+            Player Components: Oynatıcı Bileşenleri
+            Animated ASCII Art: Hareketli ASCII Art
+            Chart Examples: Grafik Örnekleri
+            Font Awesome Icons: Font Awesome Simgeleri
+            Level 1: Seviye 1
+            Level 2: Seviye 2
+            Level 3: Seviye 3
+            Level 4: Seviye 4
+            Level 5 - Deep Nested Example: Seviye 5 - Derin İç İçe Örnek
+            Breadcrumb Demo: Breadcrumb Navigasyon Demosu
+            Tools: Araçlar
+            Introduction to Tools: Araçlara Giriş
+            Vendor Builder: Vendor Builder
+            Phantom Image Optimizer: Phantom Image Optimizer
+
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+      use_pygments: true
+      linenums: false
+      linenums_style: inline
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - toc:
+      permalink: true
+  - codehilite:
+      guess_lang: false
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tilde
+
+nav:
+  - Home: index.md
+  - Styling Examples:
+    - Introduction to Styling Examples: examples/index.md
+    - Typography: examples/typography.md
+    - Layout Grids: examples/layout-grids.md
+    - Theme Switching: examples/theme-switching.md
+    - Command Examples: examples/command-examples.md
+    - Code Blocks: examples/code-blocks.md
+    - Status Cards: examples/status-cards.md
+    - Feature Lists: examples/feature-lists.md
+    - Alert Boxes: examples/alert-boxes.md
+    - Loading Stages and States: examples/loading-states.md
+    - Progress Indicators: examples/progress-indicators.md
+    - Image Components: examples/image-components.md
+    - Player Components: examples/player-components.md
+    - Animated ASCII Art: examples/animated-ascii-art.md
+    - Chart Examples: examples/chart-examples.md
+    - Font Awesome Icons: examples/font-awesome-icons.md
+    - Breadcrumb Demo:
+      - Level 1:
+        - Level 2:
+          - Level 3:
+            - Level 4:
+              - Level 5 - Deep Nested Example: examples/breadcrumb-demo.md
+  - Tools:
+      - Introduction to Tools: tools/index.md
+      - Vendor Builder: tools/vendor-builder.md
+      - Image Optimizer: tools/image-optimizer.md
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/remrearas
+    - icon: fontawesome/solid/envelope
+      link: mailto:r.emrearas@proton.me
+  generator: true  # This removes "Made with Material for MkDocs"
+
+extra_css:
+  - assets/stylesheets/theme.css
+  - assets/stylesheets/custom-components.css
+
+extra_javascript:
+  - assets/javascripts/code-badges.js
+  - assets/javascripts/breadcrumb-scroll.js
+  - assets/javascripts/hreflang-generator.js
+
+copyright: Copyright &copy; 2025 Rıza Emre ARAS <r.emrearas@proton.me>

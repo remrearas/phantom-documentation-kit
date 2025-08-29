@@ -1,0 +1,20 @@
+{
+  "remote_server": {
+    "host": "your-server-ip",
+    "user": "your-username",
+    "ssh_key": "~/.ssh/your-key",
+    "ssh_options": {
+      "ConnectTimeout": "5",
+      "StrictHostKeyChecking": "no"
+    }
+  },
+  "docker": {
+    "container_prefix": "phantom-mutagen-test",
+    "sync_directory": "/sync"
+  },
+  "mutagen": {
+    "sync_mode": "two-way-resolved",
+    "watch_mode": "force-poll",
+    "polling_interval": 2
+  }
+}

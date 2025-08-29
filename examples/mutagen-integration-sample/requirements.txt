@@ -1,0 +1,28 @@
+# ██████╗ ██╗  ██╗ █████╗ ███╗   ██╗████████╗ ██████╗ ███╗   ███╗
+# ██╔══██╗██║  ██║██╔══██╗████╗  ██║╚══██╔══╝██╔═══██╗████╗ ████║
+# ██████╔╝███████║███████║██╔██╗ ██║   ██║   ██║   ██║██╔████╔██║
+# ██╔═══╝ ██╔══██║██╔══██║██║╚██╗██║   ██║   ██║   ██║██║╚██╔╝██║
+# ██║     ██║  ██║██║  ██║██║ ╚████║   ██║   ╚██████╔╝██║ ╚═╝ ██║
+# ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝    ╚═════╝ ╚═╝     ╚═╝
+# Copyright (c) 2025 Rıza Emre ARAS <r.emrearas@proton.me>
+# mutagen-integration-sample
+
+# Docker SDK for Python
+docker>=6.0.0
+
+# The following are part of Python standard library and don't need to be installed:
+# - subprocess
+# - sys
+# - os
+# - time
+# - json
+# - shutil
+# - pathlib
+# - logging
+# - threading
+# - random
+
+# Note: Mutagen is a standalone binary and is not installed via pip.
+# Install Mutagen separately:
+# - macOS: brew install mutagen-io/mutagen/mutagen (TESTED)
+# - Linux: Download from https://github.com/mutagen-io/mutagen/releases

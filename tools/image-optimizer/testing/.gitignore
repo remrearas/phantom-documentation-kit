@@ -1,0 +1,19 @@
+# Test artifacts
+data/
+outputs/
+
+# Downloaded dataset
+images.tar.gz
+
+# Test reports (optional - uncomment if you don't want to track reports)
+# reports/
+# recordings/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,25 @@
+# Test directories
+sync_test/
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# Mutagen
+.mutagen/
+*.mutagen-lock
+
+# Configuration
+config.json

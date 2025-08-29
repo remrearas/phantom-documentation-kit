@@ -1,0 +1,29 @@
+{
+  "name": "phantom-image-optimizer",
+  "version": "1.0.0",
+  "description": "Standalone image optimization tool for Phantom Documentation Kit",
+  "author": "Rıza Emre ARAS",
+  "main": "optimize.js",
+  "bin": {
+    "phantom-optimize": "./optimize.js"
+  },
+  "dependencies": {
+    "bytes": "^3.1.2",
+    "chalk": "^5.3.0",
+    "cli-table3": "^0.6.3",
+    "commander": "^11.1.0",
+    "g": "^2.0.1",
+    "glob": "^10.3.10",
+    "imagemin": "^8.0.1",
+    "imagemin-gifsicle": "^5.2.0",
+    "imagemin-mozjpeg": "^7.0.0",
+    "imagemin-pngquant": "^5.0.1",
+    "imagemin-webp": "^6.1.0",
+    "ora": "^7.0.1",
+    "p-limit": "^5.0.0",
+    "sharp": "^0.33.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

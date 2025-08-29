@@ -1,0 +1,127 @@
+name: Create Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Get version from tag
+        id: get_version
+        run: echo "VERSION=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
+        
+      - name: Create release archive
+        run: |
+          # Get repository name
+          REPO_NAME=$(basename $GITHUB_REPOSITORY)
+          
+          # Create archive name
+          ARCHIVE_NAME="${REPO_NAME}-${{ steps.get_version.outputs.VERSION }}"
+          
+          # Create ZIP archive excluding unnecessary files
+          zip -r "${ARCHIVE_NAME}.zip" . \
+            -x "*.git*" \
+            -x ".github/*" \
+            -x "node_modules/*" \
+            -x "__pycache__/*" \
+            -x "*.pyc" \
+            -x ".env" \
+            -x "logs/*.log" \
+            -x "outputs/www/*" \
+            -x ".DS_Store" \
+            -x ".pytest_cache/*" \
+            -x "*.egg-info/*"
+          
+          # Create SHA256 checksum
+          sha256sum "${ARCHIVE_NAME}.zip" > checksums.txt
+          
+          # Display file size
+          echo "Archive size:"
+          ls -lh ${ARCHIVE_NAME}.zip
+          echo ""
+          echo "Checksum:"
+          cat checksums.txt
+          
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          name: Phantom Documentation Kit ${{ steps.get_version.outputs.VERSION }}
+          body: |
+            ## Phantom Documentation Kit ${{ steps.get_version.outputs.VERSION }}
+            
+            🇬🇧
+            
+            ### Installation
+            Extract and install dependencies:
+            
+            ```bash
+            # Extract archive
+            unzip phantom-documentation-kit-${{ steps.get_version.outputs.VERSION }}.zip
+            cd phantom-documentation-kit-${{ steps.get_version.outputs.VERSION }}
+            
+            # Install Python dependencies
+            pip install -r requirements.txt
+            
+            # Install Node.js dependencies (optional, for development tools only)
+            cd tools/image-optimizer && npm install
+            cd tools/vendor-builder && npm install
+            ```
+            
+            ### License
+            MIT License - See [LICENSE](LICENSE) file for details.
+            Third-party licenses - See [THIRD_PARTY_LICENSES](THIRD_PARTY_LICENSES) file for dependencies.
+            
+            ### File Verification
+            Use `checksums.txt` to verify the integrity of downloaded files:
+            
+            ```bash
+            sha256sum -c checksums.txt
+            ```
+            
+            ---
+            
+            🇹🇷
+            
+            ### Kurulum
+            Arşivi açın ve bağımlılıkları yükleyin:
+            
+            ```bash
+            # Arşivi açın
+            unzip phantom-documentation-kit-${{ steps.get_version.outputs.VERSION }}.zip
+            cd phantom-documentation-kit-${{ steps.get_version.outputs.VERSION }}
+            
+            # Python bağımlılıklarını yükleyin
+            pip install -r requirements.txt
+            
+            # Node.js bağımlılıklarını yükleyin (opsiyonel, sadece geliştirme araçları için)
+            cd tools/image-optimizer && npm install
+            cd tools/vendor-builder && npm install
+            ```
+            
+            ### Lisans
+            MIT Lisansı - Detaylar için [LICENSE](LICENSE) dosyasına bakınız.
+            Üçüncü taraf lisansları - Bağımlılıklar için [THIRD_PARTY_LICENSES](THIRD_PARTY_LICENSES) dosyasına bakınız.
+            
+            ### Dosya Doğrulama
+            İndirilen dosyaların bütünlüğünü doğrulamak için `checksums.txt` dosyasını kullanın:
+            
+            ```bash
+            sha256sum -c checksums.txt
+            ```
+            
+          files: |
+            phantom-documentation-kit-*.zip
+            checksums.txt
+          draft: false
+          prerelease: false
+          generate_release_notes: true

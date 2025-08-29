@@ -1,0 +1,556 @@
+██████╗ ██╗  ██╗ █████╗ ███╗   ██╗████████╗ ██████╗ ███╗   ███╗
+██╔══██╗██║  ██║██╔══██╗████╗  ██║╚══██╔══╝██╔═══██╗████╗ ████║
+██████╔╝███████║███████║██╔██╗ ██║   ██║   ██║   ██║██╔████╔██║
+██╔═══╝ ██╔══██║██╔══██║██║╚██╗██║   ██║   ██║   ██║██║╚██╔╝██║
+██║     ██║  ██║██║  ██║██║ ╚████║   ██║   ╚██████╔╝██║ ╚═╝ ██║
+╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝    ╚═════╝ ╚═╝     ╚═╝
+
+THIRD PARTY SOFTWARE LICENSES / ÜÇÜNCÜ TARAF YAZILIM LİSANSLARI
+================================================================
+
+EN:
+This document contains the licenses and copyright notices for third-party 
+software dependencies used by the Phantom Documentation Kit.
+
+The Phantom Documentation Kit is Copyright (c) 2025 Rıza Emre ARAS <r.emrearas@proton.me>
+
+The following sets forth attribution notices for third party software that may 
+be contained in portions of the Phantom Documentation Kit product.
+
+TR:
+Bu belge, Phantom Documentation Kit tarafından kullanılan üçüncü taraf 
+yazılım bağımlılıklarının lisanslarını ve telif hakkı bildirimlerini içerir.
+
+The Phantom Documentation Kit is Copyright (c) 2025 Rıza Emre ARAS <r.emrearas@proton.me>
+
+Aşağıdakiler, Phantom Documentation Kit ürününün bölümlerinde yer alabilecek 
+üçüncü taraf yazılımlar için atıf bildirimlerini belirtir.
+
+================================================================================
+
+1. MkDocs (https://www.mkdocs.org/)
+   License: BSD 2-Clause License
+   License URL: https://github.com/mkdocs/mkdocs/blob/master/LICENSE
+   Copyright: Copyright © 2014-present, Tom Christie. All rights reserved.
+   
+   Redistribution and use in source and binary forms, with or without
+   modification, are permitted provided that the following conditions are met:
+   
+   Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+   Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+   
+   THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+   AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+   IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+   DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+   FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+   DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+   SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+   CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+   OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+   OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+================================================================================
+
+2. MkDocs Material (https://squidfunk.github.io/mkdocs-material/)
+   License: MIT License
+   License URL: https://github.com/squidfunk/mkdocs-material/blob/master/LICENSE
+   Copyright: Copyright (c) 2016-2025 Martin Donath <martin.donath@squidfunk.com>
+   
+   Permission is hereby granted, free of charge, to any person obtaining a copy
+   of this software and associated documentation files (the "Software"), to deal
+   in the Software without restriction, including without limitation the rights
+   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+   copies of the Software, and to permit persons to whom the Software is
+   furnished to do so, subject to the following conditions:
+
+   The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.
+
+================================================================================
+
+3. MkDocs Material Extensions (https://github.com/facelessuser/mkdocs-material-extensions)
+   License: MIT License
+   License URL: https://github.com/facelessuser/mkdocs-material-extensions/blob/master/LICENSE.md
+   Copyright: Copyright (c) 2021 Isaac Muse
+   
+   Permission is hereby granted, free of charge, to any person obtaining a copy
+   of this software and associated documentation files (the "Software"), to deal
+   in the Software without restriction, including without limitation the rights
+   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+   copies of the Software, and to permit persons to whom the Software is
+   furnished to do so, subject to the following conditions:
+
+   The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.
+
+================================================================================
+
+4. MkDocs Minify Plugin (https://github.com/byrnereese/mkdocs-minify-plugin)
+   License: MIT License
+   License URL: https://github.com/byrnereese/mkdocs-minify-plugin/blob/master/LICENSE
+   Copyright: Copyright (c) 2018 Byrne Reese
+   
+   Permission is hereby granted, free of charge, to any person obtaining a copy
+   of this software and associated documentation files (the "Software"), to deal
+   in the Software without restriction, including without limitation the rights
+   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+   copies of the Software, and to permit persons to whom the Software is
+   furnished to do so, subject to the following conditions:
+
+   The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.
+
+================================================================================
+
+5. MkDocs Static i18n (https://github.com/ultrabug/mkdocs-static-i18n)
+   License: MIT License
+   License URL: https://github.com/ultrabug/mkdocs-static-i18n/blob/main/LICENSE
+   Copyright: Copyright (c) 2021 Ultrabug
+   
+   Permission is hereby granted, free of charge, to any person obtaining a copy
+   of this software and associated documentation files (the "Software"), to deal
+   in the Software without restriction, including without limitation the rights
+   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+   copies of the Software, and to permit persons to whom the Software is
+   furnished to do so, subject to the following conditions:
+
+   The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.
+
+================================================================================
+
+6. PyMdown Extensions (https://github.com/facelessuser/pymdown-extensions)
+   License: MIT License
+   License URL: https://github.com/facelessuser/pymdown-extensions/blob/main/LICENSE.md
+   Copyright: Copyright (c) 2014 - 2025 Isaac Muse
+   
+   Permission is hereby granted, free of charge, to any person obtaining a copy
+   of this software and associated documentation files (the "Software"), to deal
+   in the Software without restriction, including without limitation the rights
+   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+   copies of the Software, and to permit persons to whom the Software is
+   furnished to do so, subject to the following conditions:
+
+   The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.
+
+================================================================================
+
+7. Pygments (https://pygments.org/)
+   License: BSD 2-Clause License
+   License URL: https://github.com/pygments/pygments/blob/master/LICENSE
+   Copyright: Copyright (c) 2006-2022 by the respective authors (see AUTHORS file).
+   All rights reserved.
+   
+   Redistribution and use in source and binary forms, with or without
+   modification, are permitted provided that the following conditions are
+   met:
+   
+   * Redistributions of source code must retain the above copyright
+     notice, this list of conditions and the following disclaimer.
+   
+   * Redistributions in binary form must reproduce the above copyright
+     notice, this list of conditions and the following disclaimer in the
+     documentation and/or other materials provided with the distribution.
+   
+   THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+   "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+   LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+   A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+   OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+   SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+   LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+   DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+   THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+   (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+   OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+================================================================================
+
+8. Font Awesome (https://fontawesome.com/)
+   License: Font Awesome Free License  
+   License URL: https://fontawesome.com/license/free
+   Copyright: Copyright (c) 2024 Fonticons, Inc.
+   
+   Icons: CC BY 4.0 License (https://creativecommons.org/licenses/by/4.0/)
+   Fonts: SIL OFL 1.1 License (https://scripts.sil.org/OFL)
+   Code: MIT License (https://opensource.org/licenses/MIT)
+   
+   The Font Awesome Free License allows you to use Font Awesome Free in commercial
+   and non-commercial projects. Attribution is required when using the icons.
+
+================================================================================
+
+9. Asciinema Player (https://github.com/asciinema/asciinema-player)
+   License: Apache License 2.0
+   License URL: https://github.com/asciinema/asciinema-player/blob/master/LICENSE
+   Copyright: Copyright 2011-2021 Marcin Kulik
+   
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+   
+       http://www.apache.org/licenses/LICENSE-2.0
+   
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+================================================================================
+
+10. Chart.js (https://www.chartjs.org/)
+    License: MIT License
+    License URL: https://github.com/chartjs/Chart.js/blob/master/LICENSE.md
+    Copyright: Copyright (c) 2014-2024 Chart.js Contributors
+    
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+
+================================================================================
+
+11. LoadJS (https://github.com/kubetail-org/loadjs)
+    License: MIT License
+    License URL: https://github.com/kubetail-org/loadjs/blob/master/LICENSE
+    Copyright: Copyright (c) 2016-present Kubetail, hello@kubetail.com
+    
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+
+================================================================================
+
+12. Mutagen (https://mutagen.io/)
+    License: MIT License (with optional SSPL components)
+    License URL: https://github.com/mutagen-io/mutagen/blob/master/LICENSE
+    Copyright: Copyright (c) 2016-present Docker, Inc.
+    
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+    
+    Note: From Mutagen v0.17 onward, SSPL-licensed code is included by default in 
+    official Mutagen release builds. The Phantom Documentation Kit uses Mutagen 
+    purely as an external tool for development purposes and does not incorporate 
+    any SSPL-licensed code.
+
+================================================================================
+
+13. Docker SDK for Python (https://github.com/docker/docker-py)
+    License: Apache License 2.0
+    License URL: https://github.com/docker/docker-py/blob/main/LICENSE
+    Copyright: Copyright 2016 Docker, Inc.
+    
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+    
+        http://www.apache.org/licenses/LICENSE-2.0
+    
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+================================================================================
+
+14. Orbitron Font (https://fonts.google.com/specimen/Orbitron)
+    License: SIL Open Font License 1.1
+    License URL: https://scripts.sil.org/OFL
+    Copyright: Copyright (c) 2009, Matt McInerney (matt@pixelspread.com)
+    
+    This Font Software is licensed under the SIL Open Font License, Version 1.1.
+    This license is copied below, and is also available with a FAQ at:
+    http://scripts.sil.org/OFL
+    
+    PREAMBLE
+    The goals of the Open Font License (OFL) are to stimulate worldwide
+    development of collaborative font projects, to support the font creation
+    efforts of academic and linguistic communities, and to provide a free and
+    open framework in which fonts may be shared and improved in partnership
+    with others.
+    
+    The OFL allows the licensed fonts to be used, studied, modified and
+    redistributed freely as long as they are not sold by themselves. The
+    fonts, including any derivative works, can be bundled, embedded, 
+    redistributed and/or sold with any software provided that any reserved
+    names are not used by derivative works. The fonts and derivatives,
+    however, cannot be released under any other type of license. The
+    requirement for fonts to remain under this license does not apply
+    to any document created using the fonts or their derivatives.
+
+================================================================================
+
+15. Share Tech Mono Font (https://fonts.google.com/specimen/Share+Tech+Mono)
+    License: SIL Open Font License 1.1
+    License URL: https://scripts.sil.org/OFL
+    Copyright: Copyright (c) 2012, Carrois Type Design, Ralph du Carrois 
+    (post@carrois.com), with Reserved Font Name 'Share'
+    
+    This Font Software is licensed under the SIL Open Font License, Version 1.1.
+    This license is copied below, and is also available with a FAQ at:
+    http://scripts.sil.org/OFL
+    
+    The SIL Open Font License permits the font to be used, studied, modified
+    and redistributed freely for any purpose, including commercial use, as long
+    as it is not sold by itself. The font may be bundled, embedded, and
+    redistributed with any software or document.
+
+================================================================================
+
+16. Istanbul Cityscape Image (Pexels)
+    Source: https://www.pexels.com/photo/cityscape-of-istanbul-2048865/
+    Photographer: Şinasi Müldür (https://www.pexels.com/@smuldur/)
+    License: Pexels License
+    License URL: https://www.pexels.com/license/
+    
+    The Pexels License allows free use for commercial and non-commercial purposes.
+    No attribution required, but attribution is appreciated.
+    
+    This image is used as the Open Graph (og:image) and Twitter Card image for 
+    social media sharing purposes.
+    
+    We gratefully acknowledge the photographer Şinasi Müldür for this beautiful
+    Istanbul cityscape photograph featuring the Galata Tower and Bosphorus.
+
+================================================================================
+
+17. Image Optimizer Tool Dependencies
+    
+    The Phantom Image Optimizer tool includes the following dependencies:
+    
+    a) Sharp (https://github.com/lovell/sharp)
+       License: Apache License 2.0
+       Copyright: Copyright 2013 Lovell Fuller and contributors
+    
+    b) Imagemin (https://github.com/imagemin/imagemin)
+       License: MIT License
+       Copyright: Copyright (c) Sindre Sorhus <sindresorhus@gmail.com>
+    
+    c) Commander.js (https://github.com/tj/commander.js)
+       License: MIT License
+       Copyright: Copyright (c) 2011 TJ Holowaychuk <tj@vision-media.ca>
+    
+    d) Chalk (https://github.com/chalk/chalk)
+       License: MIT License
+       Copyright: Copyright (c) Sindre Sorhus <sindresorhus@gmail.com>
+    
+    e) Ora (https://github.com/sindresorhus/ora)
+       License: MIT License
+       Copyright: Copyright (c) Sindre Sorhus <sindresorhus@gmail.com>
+    
+    f) Glob (https://github.com/isaacs/node-glob)
+       License: ISC License
+       Copyright: Copyright (c) Isaac Z. Schlueter and Contributors
+    
+    g) Additional dependencies (bytes, cli-table3, p-limit, imagemin plugins)
+       Various MIT and ISC licenses
+    
+    Note: All image optimizer dependencies are development/build-time tools and
+    are not included in the final documentation output. They are used solely
+    for optimizing images during the development process.
+
+================================================================================
+
+18. Vendor Builder Tool Dependencies
+    
+    The Phantom Vendor Builder tool includes the following build-time dependencies:
+    
+    a) PostCSS (https://github.com/postcss/postcss)
+       License: MIT License
+       Copyright: Copyright 2013 Andrey Sitnik <andrey@sitnik.ru>
+    
+    b) CSSNano (https://github.com/cssnano/cssnano)
+       License: MIT License
+       Copyright: Copyright (c) Ben Briggs <beneb.info@gmail.com>
+    
+    c) Terser (https://github.com/terser/terser)
+       License: BSD 2-Clause License
+       Copyright: Copyright 2012-2018 (c) Mihai Bazon <mihai.bazon@gmail.com>
+    
+    Note: These are build-time dependencies used only for processing and bundling
+    vendor assets. They are not included in the final documentation output.
+
+================================================================================
+
+SUMMARY OF LICENSE TYPES / LİSANS TÜRLERİ ÖZETİ:
+==============================================
+
+EN:
+Summary of License Types
+
+1. MIT License: mkdocs-material, mkdocs-material-extensions, mkdocs-minify-plugin, 
+   mkdocs-static-i18n, pymdown-extensions, Chart.js, LoadJS, Mutagen,
+   imagemin, commander.js, chalk, ora, and most build-time dependencies
+2. BSD 2-Clause License: mkdocs, pygments, terser
+3. Apache License 2.0: Asciinema Player, Docker SDK for Python, sharp
+4. ISC License: glob and some build dependencies
+5. Mixed License: Font Awesome (CC BY 4.0 for icons, SIL OFL 1.1 for fonts, MIT for code)
+6. SIL Open Font License 1.1: Orbitron Font, Share Tech Mono Font
+7. Pexels License: Istanbul Cityscape Image (free for commercial and non-commercial use)
+
+All of these licenses are permissive open source licenses that are fully
+compatible with each other and with the MIT license of this documentation kit.
+There are no copyleft restrictions or license compatibility issues.
+
+The documentation kit may be freely used, modified, and distributed under the
+terms of the MIT license, and all dependencies are compatible with commercial
+and non-commercial use.
+
+For questions about license compatibility or usage, please consult with
+legal counsel or refer to the individual license texts.
+
+TR:
+Lisans Türleri Özeti
+
+1. MIT Lisansı: mkdocs-material, mkdocs-material-extensions, mkdocs-minify-plugin, 
+   mkdocs-static-i18n, pymdown-extensions, Chart.js, LoadJS, Mutagen,
+   imagemin, commander.js, chalk, ora ve çoğu build-time bağımlılıkları
+2. BSD 2-Madde Lisansı: mkdocs, pygments, terser
+3. Apache Lisansı 2.0: Asciinema Player, Docker SDK for Python, sharp
+4. ISC Lisansı: glob ve bazı build bağımlılıkları
+5. Karma Lisans: Font Awesome (İkonlar için CC BY 4.0, fontlar için SIL OFL 1.1, kod için MIT)
+6. SIL Open Font Lisansı 1.1: Orbitron Font, Share Tech Mono Font
+7. Pexels Lisansı: İstanbul Şehir Manzarası Görseli (ticari ve ticari olmayan kullanım için ücretsiz)
+
+Bu lisansların tümü, birbirleriyle ve bu belgeleme kitinin MIT lisansıyla
+tamamen uyumlu olan izin verici açık kaynak lisanslarıdır. Hiçbir copyleft
+kısıtlaması veya lisans uyumluluğu sorunu yoktur.
+
+Belgeleme kiti MIT lisansı şartları altında serbestçe kullanılabilir, 
+değiştirilebilir ve dağıtılabilir ve tüm bağımlılıklar ticari ve ticari olmayan
+kullanım ile uyumludur.
+
+Lisans uyumluluğu veya kullanımla ilgili sorular için lütfen hukuk
+danışmanı ile görüşün veya bireysel lisans metinlerine başvurun.
+
+================================================================================
+
+DISCLAIMER / SORUMLULUK REDDİ:
+===============================
+
+EN:
+This third-party license information is provided for informational purposes 
+only and does not constitute legal advice. While every effort has been made to 
+accurately represent the licenses of the included dependencies, the copyright 
+holder makes no warranties about the accuracy, completeness, or legal 
+sufficiency of this license information.
+
+License texts and terms may change over time. Users are responsible for 
+verifying current license information directly from the original sources.
+
+For definitive legal guidance regarding license compliance, dependency usage, 
+distribution rights, or any other legal matters, please consult qualified 
+legal counsel familiar with intellectual property and open source licensing law.
+
+Users are solely responsible for ensuring their use of this software and its 
+dependencies complies with all applicable laws and license requirements.
+
+TR:
+Bu üçüncü taraf lisans bilgisi yalnızca bilgilendirme amaçlı olarak 
+sağlanmıştır ve hukuki tavsiye niteliği taşımaz. Dahil edilen bağımlılıkların 
+lisanslarını doğru bir şekilde temsil etmek için her türlü çaba gösterilmiş 
+olsa da, telif hakkı sahibi bu lisans bilgisinin doğruluğu, eksiksizliği 
+veya hukuki yeterliliği konusunda hiçbir garanti vermez.
+
+Lisans metinleri ve şartları zaman içinde değişebilir. Kullanıcılar, 
+güncel lisans bilgilerini doğrudan orijinal kaynaklardan doğrulamakla yükümlüdür.
+
+Lisans uyumluluğu, bağımlılık kullanımı, dağıtım hakları veya diğer 
+hukuki konularda kesin hukuki rehberlik için, fikri mülkiyet ve açık kaynak 
+lisanslama hukuku konusunda uzman olan nitelikli hukuk danışmanı ile görüşünüz.
+
+Kullanıcılar, bu yazılımı ve bağımlılıklarını kullanımlarının tüm geçerli 
+yasalar ve lisans gerekliliklerine uygun olmasını sağlamaktan yalnızca kendileri 
+sorumludur.
+
+================================================================================
