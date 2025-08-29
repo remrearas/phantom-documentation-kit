@@ -174,9 +174,6 @@ The `examples/` directory contains practical implementations and utilities:
 **Mutagen Integration** ([examples/mutagen-integration-sample/](examples/mutagen-integration-sample/README.md))  
 Demonstrates remote Docker development with Mutagen file synchronization. Includes SDK implementation and testing scripts for efficient remote container workflows.
 
-**TBD Dictionary** ([examples/tbd_dictionary/](examples/tbd_dictionary/README.md))  
-Turkish-English technical dictionary implementation with Streamlit. 
-
 **Utility Scripts**  
 - `run_with_recording.py` - Captures terminal sessions as Asciinema recordings for documentation demos
 
