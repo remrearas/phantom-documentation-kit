@@ -72,7 +72,7 @@ function getPlayerOptions(element) {
         theme: element.getAttribute('data-theme') || 'solarized-dark',
         poster: element.getAttribute('data-poster') || 'npt:0:3',
         fit: element.getAttribute('data-fit') === 'true',
-        fontSize: element.getAttribute('data-font-size') || 'medium'
+        terminalFontSize: element.getAttribute('data-font-size') || 'medium'
     };
 }
 
